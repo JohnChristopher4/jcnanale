@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>FORMVALIDATION</title>
+</head>
+<style >
+	.button1{
+		border-radius: 5px;
+		border: none;
+		background-color: green;
+		padding: 15px 30px;
+		color: white;
+	}
+	.button2{
+		border-radius: 5px;
+		border: none;
+ 		background-color: blue;
+ 		padding: 10px 20px;
+ 		color: white;
+	}
+	.button3{
+		border-radius: 5px;
+		border: none;
+		background-color: red;
+		padding: 10px 20px;
+		color: white;
+	}
+	.button4{
+		border-radius: 5px;
+		border: none;
+		background-color: green;
+		padding: 15px 30px;
+		color: white;
+	}
+
+	.valid{
+		border-radius:10px;
+		border: 2px solid;
+		padding: 20px;
+		width: 200px;
+		height: 800px;
+		color: green;
+	}
+</style>
+<body>
+	<center><ul class="formvalid">
+		<button class="button1">New Registration</button><br><br>
+			<button class="button2">UPDATE Registration</button><br><br>
+					<button class="button3">Registration STATUS</button><br><br>
+		<div class="valid">
+		<h2>New Registration</h2><br>
+		<form action="select" method="post">
+		<select name="name" required="">
+		<option value="">...SELECT...</option>
+		<option value="">AGUSAN</option>
+		<option value="">BAIKINGON</option>
+		<option value="">BALUBAL</option>
+		<option value="">BALULANG</option>
+		<option value="">BARANGAY 01</option>
+		<option value="">BARANGAY 02</option>
+		<option value="">BARANGAY 03</option>
+		<option value="">BARANGAY 04</option>
+		<option value="">BARANGAY 05</option>
+		<option value="">BARANGAY 06</option>
+		<option value="">BARANGAY 07</option>
+		<option value="">BARANGAY 08</option>
+		<option value="">BARANGAY 09</option>
+		<option value="">BARANGAY 10</option>
+		<option value="">BARANGAY 11</option>
+		<option value="">BARANGAY 12</option>
+		<option value="">BARANGAY 12</option>
+		<option value="">BARANGAY 13</option>
+		<option value="">BARANGAY 14</option>
+		<option value="">BARANGAY 15</option>
+		<option value="">BARANGAY 16</option>
+		<option value="">BARANGAY 17</option>
+		<option value="">BARANGAY 18</option>
+		<option value="">BARANGAY 19</option>
+		<option value="">BARANGAY 20</option>
+		<option value="">BARANGAY 21</option>
+		<option value="">BARANGAY 22</option>
+		<option value="">BARANGAY 23</option>
+		<option value="">BARANGAY 24</option>
+		<option value="">BARANGAY 25</option>
+		<option value="">BARANGAY 26</option>
+		<option value="">BARANGAY 27</option>
+		<option value="">BARANGAY 28</option>
+		<option value="">BARANGAY 29</option>
+		<option value="">BARANGAY 30</option>
+		<option value="">BARANGAY 31</option>
+		<option value="">BARANGAY 32</option>
+		<option value="">BARANGAY 33</option>
+		<option value="">BARANGAY 34</option>
+		<option value="">BARANGAY 35</option>
+		<option value="">BARANGAY 36</option>
+		<option value="">BARANGAY 37</option>
+		<option value="">BARANGAY 38</option>
+		<option value="">BARANGAY 39</option>
+		<option value="">BARANGAY 40</option>
+		<option value="">BAYABAS</option>
+		<option value="">BAYANGA</option>
+		<option value="">BESIGAN</option>
+		<option value="">BONBON</option>
+		<option value="">BUGO</option>
+		<option value="">BULUA</option>
+		<option value="">CAMAMAN-AN</option>
+		<option value="">CANITO-AN</option>
+		<option value="">CARMEN</option>
+		<option value="">CONSOLACION</option>
+		<option value="">CUGMAN</option>
+		<option value="">DANSOLIHON</option>
+		<option value="">F.S. CATANICO</option>
+		<option value="">GUSA</option>
+		<option value="">INDAHAG</option>
+		<option value="">IPONAN</option>
+		<option value="">KAUSWAGAN</option>
+		<option value="">LAPASAN</option>
+		<option value="">LUMBIA</option>
+		<option value="">MACABALAN</option>
+		<option value="">MACASANDIG</option>
+		<option value="">MAMBUAYA</option>
+		<option value="">NAZARETH</option>
+		<option value="">PAGALUNGAN</option>
+		<option value="">PAGATPAT</option>
+		<option value="">PATAG</option>
+		<option value="">PIGSAG-AN</option>
+		<option value="">PUERTO</option>
+		<option value="">PUNTOD</option>
+		<option value="">SAN SIMON</option>
+		<option value="">TABLON</option>
+		<option value="">TAGLIMAO</option>
+		<option value="">TAGPANGI</option>
+		<option value="">TIGNAPOLOAN</option>
+		<option value="">TUBURAN</option>
+		<option value="">TUMPAGON</option>
+		</select><br>
+		Barangay<br>
+		<form>
+		<input type="text" id="apply" name="apply" class="form-control" placeholder="" height="50" />
+		<span class="error-message" id="apply-error" style="color: red;"></span>
+		Applying for<br><br>
+		<input type="text" id="lastname" name="lastname" class="form-control" placeholder="lastname" height="50" />
+		<span class="error-message" id="lastname-error" style="color: red;"></span>
+		Last Name<br><br>
+		<input type="text" id="firstname" name="firstname" class="form-control" placeholder="firstname" height="50" />
+		<span class="error-message" id="firstname-error" style="color: red;"></span>
+		First Name<br><br>
+	 	<input type="text" id="middlename" name="middlename" class="form-control" placeholder="middlename" height="50" />
+		<span class="error-message" id="middlename-error" style="color: red;"></span>
+		Middle Name<br><br>
+		<input type="text" id="extname" name="extname" class="form-control" placeholder="extname" height="50" />
+		<span class="error-message" id="extname-error" style="color: red;"></span>
+		Ext Name<br><br>
+		<input type="text" id="birthdate" name="birthdate" class="form-control" placeholder="birthdate" height="50" />
+		<span class="error-message" id="birthdate-error" style="color: red;"></span>
+		Birth Date (mm/dd/yyyy)<br><br>
+		<h2>WQ4X0MG</h2>
+		<input type="text" id="imagecode" name="imagecode" class="form-control" placeholder="TYPE THE IMAGE CODE" height="50" />
+		<span class="error-message" id="imagecode-error" style="color: red;"></span></form><br>
+		<button class="button4">New Registration</button><br>
+	<script>
+	const applyInput = document.getElementById("apply");
+	const lastnameInput = document.getElementById("lastname");
+	const firstnameInput = document.getElementById("firstname");
+	const middlenameInput = document.getElementById("middlename");
+	const extnameInput = document.getElementById("extname");
+	const birthdateInput= document.getElementById("birthdate");
+	const imagecodeInput= document.getElementById("imagecode");
+	
+	
+	const applyError = document.getElementById("apply-error");
+	const lastnameError = document.getElementById("lastname-error");
+	const firstnameError = document.getElementById("firstname-error");
+	const middlenameError = document.getElementById("middlename-error");
+	const extnameError = document.getElementById("extname-error");
+	const birthdateError = document.getElementById("birthdate-error");
+	const imagecodeError = document.getElementById("imagecode-error");
+		
+	applyInput.addEventListener("input", function(){
+		if (applyInput.value.length=='') {
+			applyError.textContent = "please enter what you're applying for";
+			applyError.style.display ="block";
+		}
+		
+		else{
+			applyError.style.display ="none";
+		}
+
+	});
+
+		lastnameInput.addEventListener("input", function(){
+		if (lastnameInput.value.length=='') {
+			lastnameError.textContent = "please enter your lastname";
+			lastnameError.style.display ="block";
+		}
+		
+
+		else{
+			lastnameError.style.display ="none";
+		}
+
+	});
+	firstnameInput.addEventListener("input", function(){
+		if (firstnameInput.value.length=='') {
+			firstnameError.textContent = "please enter your firstname";
+			firstnameError.style.display ="block";
+		}
+		
+		
+		else{
+			firstnameError.style.display ="none";
+		}
+
+	});
+		middlenameInput.addEventListener("input", function(){
+		if (middlenameInput.value.length=='') {
+			middlenameError.textContent = "please enter your middlename";
+			middlenameError.style.display ="block";
+		}
+		
+		else{
+			middlenameError.style.display ="none";
+		}
+
+
+	});
+		extnameInput.addEventListener("input", function(){
+		if (extnameInput.value.length=='') {
+			extnameError.textContent = "please enter your extname";
+			extnameError.style.display ="block";
+		}
+		
+
+		else{
+			extnameError.style.display ="none";
+		}
+
+
+	});
+		birthdateInput.addEventListener("input", function(){
+		if (birthdateInput.value.length=='') {
+			birthdateError.textContent = "please enter your birthdate";
+			birthdateError.style.display ="block";
+		}
+		
+		else{
+			birthdateError.style.display ="none";
+		}
+});
+			imagecodeInput.addEventListener("input", function(){
+		if (imagecodeInput.value.length=='') {
+			imagecodeError.textContent = "please enter your image code";
+			imagecodeError.style.display ="block";
+		}
+		else if (imagecodeInput.value.length <7) {
+			imagecodeError.textContent = "imagecode must be at least 7 character";
+			imagecodeError.style.display ="block";
+
+		}	
+		else{
+			imagecodeError.style.display ="none";
+		}
+
+
+	});
+
+</script>
+	</div>
+	</center>
+</body>
+</html>
